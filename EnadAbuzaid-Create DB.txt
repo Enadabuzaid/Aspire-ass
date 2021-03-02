@@ -1,0 +1,33 @@
+-- create table products
+
+CREATE TABLE products(
+	productId int(10) AUTO_INCREMENT ,
+    ProdctName varchar(250) Not Null,
+    PRIMARY KEY(productId)
+);
+
+-- create table products price
+
+CREATE TABLE products(
+	productId int(10) AUTO_INCREMENT ,
+    ProdctPrice varchar(250) Not Null,
+    PRIMARY KEY(productId)
+);
+
+
+
+
+
+-- insert Data to products table
+
+INSERT INTO `products` (`ProductName`) VALUES ('Apple'), 
+('Banana'), ('Cucumber'), ('Watermelon'), ('Ice-cream'), 
+('Orange'), ('Eggplant'), ('Egg');
+
+
+-- insrt data to productPrice table
+
+INSERT INTO `products` (`10.0`) VALUES ('10.0'), 
+('2.1'), ('5.5'), ('20.0'), ('0.5'), 
+('0.8'), ('2.0'), ('40.0');
+

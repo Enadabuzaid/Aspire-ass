@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: blue;
+	height: 40px;
+	width: 100%;
+	padding: 10px;
+}
+
+
+img{
+	height: 40px;
+	width: 40px;
+	margin-left: 15px;
+
+}
+
+footer{
+	background-color: gray;
+	height: 40px;
+	width: 100%;
+	padding: 10px;
+	bottom: 0;
+}
+form{
+	margin-top: 150px;
+	margin-bottom: 150px;
+	display: grid;
+    box-sizing: border-box;
+    padding: 40px;
+    justify-items: center;
+}
+
+input{
+	padding: 8px;
+    width: 30%;
+    margin-bottom: 15px;
+    box-shadow: -1px 1px lightgrey;
+    border: 1px solid lightgrey;
+}
+
+input[placeholder],input[placeholder]{
+  	opacity: .8;
+}
+
+button{
+	float: left; 
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    width: 8%;
+    margin-left: 260px;
+    background: #ff8282;
+    border: 1px solid #6d2b2b;
+    color: white;
+    text-transform: uppercase;
+}
+
+button:hover{
+	background-color: #6d2b2b;
+}
+
+@media only screen and (max-width: 700px) {
+  form{	
+  	margin-top: 50px;
+	margin-bottom: 50px;
+  }
+
+  button{
+  	margin-left: 310px;
+  	width: 12%;
+  }
+
+  input{
+  	width: 60%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+	button{
+  	margin-left: 0;
+  	width: 30%;
+  	margin-left: 140px;
+  }
+}

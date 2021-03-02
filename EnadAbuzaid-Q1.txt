@@ -1,0 +1,9 @@
+
+1- SELECT COUNT(*) FROM products 
+
+2- SELECT a.ProductID, a.ProductName, b.ProdcutPrice FROM products a
+ INNER JOIN productprice b ON a.ProductID = b.ProductID ORDER BY b.ProdcutPrice, a.ProductName ASC LIMIT 1 
+
+ ---- > or can use MIN()
+
+3- SELECT count(ProdcutPrice) FROM productprice WHERE ProdcutPrice < 5
