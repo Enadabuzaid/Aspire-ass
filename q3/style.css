@@ -16,6 +16,23 @@ header{
   
 }
 
+p{
+  margin: 40px;
+    text-align: center;
+    font-size: 45px;
+    color: #ff521b;
+    font-family: cursive;
+    font-weight: 800;
+}
+
+#hello{
+  color: #ff7e75e6;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 1px 1px, 1px 2px #f93c01, 2px 4px #f93c01, 2px 4px #f93c01, 3px 5px #f93c01, 4px 6px #f93c01;
+}
+
 .nav a{
   color: #ff8282;
     font-size: 20px;
